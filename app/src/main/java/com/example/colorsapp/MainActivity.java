@@ -160,39 +160,6 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-        switch(item.getItemId()) {
-            case R.id.iteTransparent:
-                Toast.makeText(this, "You've selected option 1", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteSemiTransparent:
-                Toast.makeText(this, "You've selected option 2", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteOpaque:
-                Toast.makeText(this, "You've selected option 3", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteBlack:
-                Toast.makeText(this, "You've selected suboption 1", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteWhite:
-                Toast.makeText(this, "You've selected suboption 2", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteCyan:
-                Toast.makeText(this, "You've selected suboption 3", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteMagenta:
-                Toast.makeText(this, "You've selected suboption 3", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.iteYellow:
-                Toast.makeText(this, "You've selected suboption 3", Toast.LENGTH_SHORT).show();
-                return true;
-
-            default:
-                return super.onContextItemSelected(item);
-        }
-    }
 
     @Override
     public void onStartTrackingTouch(SeekBar seekBar) {
